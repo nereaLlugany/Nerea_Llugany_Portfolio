@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>My Portfolio</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Fancybox CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+    <!-- jQuery (required for Fancybox) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Fancybox JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+    <!-- Libraries Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!-- Navbar Start -->
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+        <a href="index.html" class="navbar-brand ml-lg-3">
+            <h1 class="m-0 display-5"><span class="text-primary">My</span>Folio</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+            <div class="navbar-nav m-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#skill" class="nav-item nav-link">Skill</a>
+                <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Video Modal Start -->
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <!-- 16:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always"
+                            allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Modal End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
+                    <img class="img-fluid w-100 rounded-circle shadow-sm" src="img/Avatar.png" alt="">
+                </div>
+                <div class="col-lg-7 text-center text-lg-left">
+                    <h3 class="text-white font-weight-normal mb-3">I'm</h3>
+                    <h1 class="display-3 text-uppercase text-primary mb-2" style="-webkit-text-stroke: 2px #ffffff;">
+                        Nerea Llugany Montoya</h1>
+                    <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
+                    <div class="typed-text d-none">Bachelor Degree in Multimedia. Applications and Videogames, Web
+                        Developement, Videogame Developement, Apps Designment, Apps
+                        Developement, 3d Animator</div>
+                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
+                        <a href="https://drive.google.com/file/d/1wnVbMCuk2PH6KuASXNOL5CYYTvbwHzzB/view?usp=sharing"
+                            class="btn btn-outline-light mr-5">Download CV</a>
+                        <a href="index.html#contact" class="btn btn-outline-light mr-5">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="about">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">About</h1>
+                <h1 class="position-absolute text-uppercase text-primary">About Me</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <div class="mx-auto" style="max-width: 700px;">
+                        <h3 class="mb-4">Bachelor's degree in Multimedia. Applications and Video Games</h3>
+                        <p>I am a third year University student at UVic - Central Catalounia University who likes both
+                            the process of design and coding videogames. Moreover, I like to model 3d characters or
+                            scenarios and animate them either in either 3D or 2D enviroment.</p>
+                        <div class="row mb-3">
+                            <div class="col-sm-6 py-2">
+                                <h6>Name: <span class="text-secondary">Nerea Wenting Llugany Montoya</span></h6>
+                            </div>
+                            <div class="col-sm-6 py-2">
+                                <h6>Birthday: <span class="text-secondary">22nd April 2003</span></h6>
+                            </div>
+                            <div class="col-sm-6 py-2">
+                                <h6>Degree: <span class="text-secondary">Bachelor</span></h6>
+                            </div>
+                            <div class="col-sm-6 py-2">
+                                <h6>Phone: <span class="text-secondary">+34 618 53 90 90</span></h6>
+                            </div>
+                            <div class="col-sm-6 py-2">
+                                <h6>Email: <span class="text-secondary">nerea.llugany.montoya@gmail.com</span></h6>
+                            </div>
+                            <div class="col-sm-6 py-2">
+                                <h6>Address: <span class="text-secondary">Barcelona, Catalounia, Spain</span></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Skill Start -->
+    <div class="container-fluid py-5" id="skill">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center mb-5">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Skills</h1>
+                <h1 class="position-absolute text-uppercase text-primary">My Skills</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <div class="skill mb-4">
+                        <div class="text-center mb-4">
+                            <h5 class="mb-4">Web & Applications Development</h5>
+                            <div class="d-flex justify-content-center flex-wrap">
+                                <img src="img/html.svg" height="50px" class="mx-3 my-2">
+                                <img src="img/css.svg" height="50px" class="mx-3 my-2">
+                                <img src="img/Javascript.svg" height="50px" class="mx-3 my-2">
+                                <img src="img/java.svg" height="50px" class="mx-3 my-2">
+                                <img src="img/swift.svg" height="50px" class="mx-3 my-2">
+                            </div>
+                        </div>
+                        <div class="text-center mb-4">
+                            <h5 class="mb-4">Game Development</h5>
+                            <div class="d-flex justify-content-center flex-wrap">
+                                <img src="img/python.png" height="50px" class="mx-3 my-2">
+                                <img src="img/cpp.svg" height="50px" class="mx-3 my-2">
+                                <img src="img/c-sharp.svg" height="50px" class="mx-3 my-2">
+                                <img src="img/unity.svg" height="50px" class="mx-3 my-2">
+                                <img src="img/processing.svg" height="50px" class="mx-3 my-2">
+                                <img src="img/p5js.svg" height="40px" class="mx-3 my-2">
+                                <img src="img/Arduino.svg" height="50px" class="mx-3 my-2">
+                            </div>
+                        </div>
+                        <div class="text-center mb-4">
+                            <h5 class="mb-4">Database</h5>
+                            <div class="d-flex justify-content-center flex-wrap">
+                                <img src="img/mysql.svg" height="50px" class="mx-3 my-2">
+                            </div>
+                        </div>
+                        <div class="text-center mb-4">
+                            <h5 class="mb-4">Graphic Design & Animation</h5>
+                            <div class="d-flex justify-content-center flex-wrap">
+                                <img src="img/illustrator.svg" height="50px" class="mx-3 my-2">
+                                <img src="img/photoshop.svg" height="50px" class="mx-3 my-2">
+                                <img src="img/premiere.svg" height="50px" class="mx-3 my-2">
+                                <img src="img/after-effects.svg" height="50px" class="mx-3 my-2">
+                                <img src="img/Adobe_Animate.svg" height="50px" class="mx-3 my-2">
+                                <img src="img/Audacity.svg" height="50px" class="mx-3 my-2">
+                                <img src="img/blender.svg" height="50px" class="mx-3 my-2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Skill End -->
+
+    <!-- Portfolio Start -->
+    <div class="container-fluid pt-5 pb-3" id="portfolio">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Gallery</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Projects</h1>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center mb-2">
+                    <ul class="list-inline mb-4" id="portfolio-flters">
+                        <li class="btn btn-sm btn-outline-primary m-1 active" data-filter="*">All</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".first">Animation & 3D Modeling</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".second">Graphic Design</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".third">Programming</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row portfolio-container">
+                <!-- Portfolio Item 1 -->
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/BakeryWebpage.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/BakeryWebpage2.png" data-lightbox="first-portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                            <a href="img/BakeryWebpage3.png" data-lightbox="first-portfolio"></a>
+                            <a href="img/BakeryWebpage4.png" data-lightbox="first-portfolio"></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-description text-center">
+                        <p>This project was requested as a task of the university to learn how to develop a webpage from
+                            stratch. So, since I like to bake, I decided tocreated my first webpage that I have ever
+                            done about how I would like to be, more or less, my baking webpage.</p>
+                        <div class="portfolio-languages">
+                            <img src="img/html.svg" alt="HTML5" style="width: 30px; height: 30px;">
+                            <img src="img/css.svg" alt="CSS3" style="width: 30px; height: 30px;">
+                            <img src="img/Javascript.svg" alt="JavaScript" style="width: 30px; height: 30px;">
+                            <a href="https://github.com/nereaLlugany/nereaLlugany.github.io" target="_blank"
+                                class="portfolio-github">
+                                <!-- GitHub SVG Icon -->
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="purple"
+                                    class="bi bi-github" style="width: 30px; height: 30px;">
+                                    <path
+                                        d="M12 .297c-6.627 0-12 5.373-12 12 0 5.305 3.438 9.797 8.205 11.387.6.112.82-.261.82-.58v-2.079c-3.338.727-4.047-1.61-4.047-1.61-.546-1.39-1.333-1.762-1.333-1.762-1.089-.744.082-.73.082-.73 1.205.084 1.835 1.245 1.835 1.245 1.071 1.838 2.809 1.306 3.491.999.107-.775.419-1.306.764-1.606-2.667-.306-5.467-1.334-5.467-5.93 0-1.31.469-2.378 1.235-3.219-.124-.306-.535-1.537.117-3.202 0 0 1.008-.322 3.3 1.233.957-.266 1.984-.399 3.003-.404 1.019.005 2.046.138 3.002.404 2.29-1.555 3.295-1.233 3.295-1.233.651 1.665.243 2.896.12 3.202.766.84 1.235 1.908 1.235 3.219 0 4.6-2.803 5.624-5.472 5.93.43.373.814 1.104.814 2.225v3.293c0 .323.219.693.827.577C20.564 22.092 24 17.605 24 12.297c0-6.627-5.373-12-12-12z" />
+                                </svg>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Item 2 -->
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third second">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/MusicGame.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/MusicGame2.png" data-lightbox="second-portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                            <a href="img/MusicGame3.png" data-lightbox="second-portfolio"></a>
+                            <a href="img/MusicGame4.png" data-lightbox="second-portfolio"></a>
+                            <a href="img/BeatDetector.jpg" data-lightbox="second-portfolio"></a>
+                            <a href="img/BeatDetector2.jpg" data-lightbox="second-portfolio"></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-description text-center">
+                        <p>This project is a musical game requested as a task of my university and this task consisted
+                            to create a interactive musical game in groups. So, my teammate and I decided to create this
+                            Piano Tiles like game with the software Processing.</p>
+                        <div class="portfolio-languages">
+                            <img src="img/processing.svg" alt="HTML5" style="width: 30px; height: 30px;">
+                            <img src="img/Arduino.svg" alt="HTML5" style="width: 50px; height: 50px;">
+                            <a href="https://github.com/nereaLlugany/RythmBlast/tree/main" target="_blank"
+                                class="portfolio-github">
+                                <!-- GitHub SVG Icon -->
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="purple"
+                                    class="bi bi-github" style="width: 30px; height: 30px;">
+                                    <path
+                                        d="M12 .297c-6.627 0-12 5.373-12 12 0 5.305 3.438 9.797 8.205 11.387.6.112.82-.261.82-.58v-2.079c-3.338.727-4.047-1.61-4.047-1.61-.546-1.39-1.333-1.762-1.333-1.762-1.089-.744.082-.73.082-.73 1.205.084 1.835 1.245 1.835 1.245 1.071 1.838 2.809 1.306 3.491.999.107-.775.419-1.306.764-1.606-2.667-.306-5.467-1.334-5.467-5.93 0-1.31.469-2.378 1.235-3.219-.124-.306-.535-1.537.117-3.202 0 0 1.008-.322 3.3 1.233.957-.266 1.984-.399 3.003-.404 1.019.005 2.046.138 3.002.404 2.29-1.555 3.295-1.233 3.295-1.233.651 1.665.243 2.896.12 3.202.766.84 1.235 1.908 1.235 3.219 0 4.6-2.803 5.624-5.472 5.93.43.373.814 1.104.814 2.225v3.293c0 .323.219.693.827.577C20.564 22.092 24 17.605 24 12.297c0-6.627-5.373-12-12-12z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Item 12 -->
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third second">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/Chart1.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/Chart2.png" data-lightbox="eleventh-portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                            <a href="img/Chart3.png" data-lightbox="eleventh-portfolio"></a>
+                            <a href="img/Chart4.png" data-lightbox="eleventh-portfolio"></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-description text-center">
+                        <p>This project helped us to master and put our skills in practice of Qt that we have learned
+                            through the semester.</p>
+                        <div class="portfolio-languages">
+                            <img src="img/c-sharp.svg" alt="HTML5" style="width: 30px; height: 30px;">
+                            <img src="img/cpp.svg" alt="HTML5" style="width: 30px; height: 30px;">
+                            <img src="img/qt.svg" alt="HTML5" style="width: 30px; height: 30px;">
+                            <a href="https://github.com/nereaLlugany/ChartApplication/tree/main" target="_blank"
+                                class="portfolio-github">
+                                <!-- GitHub SVG Icon -->
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="purple"
+                                    class="bi bi-github" style="width: 30px; height: 30px;">
+                                    <path
+                                        d="M12 .297c-6.627 0-12 5.373-12 12 0 5.305 3.438 9.797 8.205 11.387.6.112.82-.261.82-.58v-2.079c-3.338.727-4.047-1.61-4.047-1.61-.546-1.39-1.333-1.762-1.333-1.762-1.089-.744.082-.73.082-.73 1.205.084 1.835 1.245 1.835 1.245 1.071 1.838 2.809 1.306 3.491.999.107-.775.419-1.306.764-1.606-2.667-.306-5.467-1.334-5.467-5.93 0-1.31.469-2.378 1.235-3.219-.124-.306-.535-1.537.117-3.202 0 0 1.008-.322 3.3 1.233.957-.266 1.984-.399 3.003-.404 1.019.005 2.046.138 3.002.404 2.29-1.555 3.295-1.233 3.295-1.233.651 1.665.243 2.896.12 3.202.766.84 1.235 1.908 1.235 3.219 0 4.6-2.803 5.624-5.472 5.93.43.373.814 1.104.814 2.225v3.293c0 .323.219.693.827.577C20.564 22.092 24 17.605 24 12.297c0-6.627-5.373-12-12-12z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 13 -->
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/OneButtonGame.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/Chart2.png" data-lightbox="twelveth-portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                            <a href="img/AstralWatch.png" data-lightbox="twelveth-portfolio"></a>
+                            <a href="img/DataViwer.png" data-lightbox="twelveth-portfolio"></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-description text-center">
+                        <p>There are the three different projects that I develoved individually through the year.</p>
+                        <div class="portfolio-languages">
+                            <img src="img/p5js.svg" alt="HTML5" style="width: 40px; height: 40px;">
+                            <a href="https://github.com/nereaLlugany/p5js_Projects/tree/main" target="_blank"
+                                class="portfolio-github">
+                                <!-- GitHub SVG Icon -->
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="purple"
+                                    class="bi bi-github" style="width: 30px; height: 30px;">
+                                    <path
+                                        d="M12 .297c-6.627 0-12 5.373-12 12 0 5.305 3.438 9.797 8.205 11.387.6.112.82-.261.82-.58v-2.079c-3.338.727-4.047-1.61-4.047-1.61-.546-1.39-1.333-1.762-1.333-1.762-1.089-.744.082-.73.082-.73 1.205.084 1.835 1.245 1.835 1.245 1.071 1.838 2.809 1.306 3.491.999.107-.775.419-1.306.764-1.606-2.667-.306-5.467-1.334-5.467-5.93 0-1.31.469-2.378 1.235-3.219-.124-.306-.535-1.537.117-3.202 0 0 1.008-.322 3.3 1.233.957-.266 1.984-.399 3.003-.404 1.019.005 2.046.138 3.002.404 2.29-1.555 3.295-1.233 3.295-1.233.651 1.665.243 2.896.12 3.202.766.84 1.235 1.908 1.235 3.219 0 4.6-2.803 5.624-5.472 5.93.43.373.814 1.104.814 2.225v3.293c0 .323.219.693.827.577C20.564 22.092 24 17.605 24 12.297c0-6.627-5.373-12-12-12z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 3 -->
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/VideogameImg.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a data-fancybox href="img/Videogame.mp4" class="text-white" style="font-size: 60px;">
+                                <i class="fa fa-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portfolio-description text-center">
+                        <p>This videogame was a task from my university and it was made by me and one of my classmates.
+                            This is a 2D plataform with different levels like the so famous videogame Mario.</p>
+                        <div class="portfolio-languages">
+                            <img src="img/unity.svg" alt="Photoshop" style="width: 30px; height: 30px;">
+                            <img src="img/c-sharp.svg" alt="Illustrator" style="width: 30px; height: 30px;">
+                            <a href="https://github.com/nereaLlugany/ThornySeasons/tree/main" target="_blank"
+                                class="portfolio-github">
+                                <!-- GitHub SVG Icon -->
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="purple"
+                                    class="bi bi-github" style="width: 30px; height: 30px;">
+                                    <path
+                                        d="M12 .297c-6.627 0-12 5.373-12 12 0 5.305 3.438 9.797 8.205 11.387.6.112.82-.261.82-.58v-2.079c-3.338.727-4.047-1.61-4.047-1.61-.546-1.39-1.333-1.762-1.333-1.762-1.089-.744.082-.73.082-.73 1.205.084 1.835 1.245 1.835 1.245 1.071 1.838 2.809 1.306 3.491.999.107-.775.419-1.306.764-1.606-2.667-.306-5.467-1.334-5.467-5.93 0-1.31.469-2.378 1.235-3.219-.124-.306-.535-1.537.117-3.202 0 0 1.008-.322 3.3 1.233.957-.266 1.984-.399 3.003-.404 1.019.005 2.046.138 3.002.404 2.29-1.555 3.295-1.233 3.295-1.233.651 1.665.243 2.896.12 3.202.766.84 1.235 1.908 1.235 3.219 0 4.6-2.803 5.624-5.472 5.93.43.373.814 1.104.814 2.225v3.293c0 .323.219.693.827.577C20.564 22.092 24 17.605 24 12.297c0-6.627-5.373-12-12-12z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Item 4 -->
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/Scene.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a data-fancybox href="img/Model&Animation.mp4" class="text-white" style="font-size: 60px;">
+                                <i class="fa fa-play"></i>
+
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portfolio-description text-center">
+                        <p>This project consisted in two parts. The first one, we needed to create scene that we wanted
+                            and later on we needed to improve it and animate it as seen in the video.
+                        </p>
+                        <div class="portfolio-languages">
+                            <img src="img/blender.svg" alt="Blender" style="width: 30px; height: 30px;">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 5 -->
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/Character_Image.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a data-fancybox href="img/Character_TurnAround.mp4" class="text-white"
+                                style="font-size: 60px;">
+                                <i class="fa fa-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portfolio-description text-center">
+                        <p>This project consisted in model a 3D character from 0, from the body and clothes to the
+                            background.</p>
+                        <div class="portfolio-languages">
+                            <img src="img/blender.svg" alt="Blender" style="width: 30px; height: 30px;">
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Item 6 -->
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/Animation1.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a data-fancybox href="img/Animation1.mp4" class="text-white" style="font-size: 60px;">
+                                <i class="fa fa-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portfolio-description text-center">
+                        <p>This animation was meant to help us to create more natural movements trying to follow the 12
+                            principales of animation.</p>
+                        <div class="portfolio-languages">
+                            <img src="img/blender.svg" alt="" style="width: 30px; height: 30px;">
+                            <img src="img/Audacity.svg" alt="" style="width: 30px; height: 30px;">
+                            <img src="img/after-effects.svg" alt="" style="width: 25px; height: 25px;">
+                            <img src="img/illustrator.svg" alt="" style="width: 25px; height: 25px;">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 7 -->
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/Animation2.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a data-fancybox href="img/Animation2.mp4" class="text-white" style="font-size: 60px;">
+                                <i class="fa fa-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portfolio-description text-center">
+                        <p>This animation was created to help us to have a better undertanding on the timing and staging
+                            of each element in the animation, where we were given a the robotic arm and we needed to
+                            create an animation.</p>
+                        <div class="portfolio-languages">
+                            <img src="img/blender.svg" alt="" style="width: 30px; height: 30px;">
+                            <img src="img/Audacity.svg" alt="" style="width: 30px; height: 30px;">
+                            <img src="img/after-effects.svg" alt="" style="width: 25px; height: 25px;">
+                            <img src="img/photoshop.svg" alt="" style="width: 25px; height: 25px;">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 8 -->
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/Animation3.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a data-fancybox href="img/Animation3.mp4" class="text-white" style="font-size: 60px;">
+                                <i class="fa fa-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portfolio-description text-center">
+                        <p>This animation was meant to be to master all the knowlage of the animation that we gathered
+                            through the semester. Therefore, we needed to animate the given character called Vincent.
+                        </p>
+                        <div class="portfolio-languages">
+                            <img src="img/blender.svg" alt="" style="width: 30px; height: 30px;">
+                            <img src="img/Audacity.svg" alt="" style="width: 30px; height: 30px;">
+                            <img src="img/after-effects.svg" alt="" style="width: 25px; height: 25px;">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 9 -->
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/Project1 (1).png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/Project1 (2).png" data-lightbox="seventh-portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                            <a href="img/Project1 (3).png" data-lightbox="seventh-portfolio"></a>
+                            <a href="img/Project1 (4).png" data-lightbox="seventh-portfolio"></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-description text-center">
+                        <p>This project was requested as a task of the university to learn how Adobe Illustrator works.
+                            Therefore, we needed to copy three given and existing logos and another one of your choise.
+                        </p>
+                        <div class="portfolio-languages">
+                            <img src="img/illustrator.svg" alt="HTML5" style="width: 25px; height: 25px;">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 10 -->
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/Project3 (1).png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/Project3 (5).png" data-lightbox="eigth-portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                            <a href="img/Project3 (4).png" data-lightbox="eigth-portfolio"></a>
+                            <a href="img/Project3 (3).png" data-lightbox="eigth-portfolio"></a>
+                            <a href="img/Project3 (2).png" data-lightbox="eigth-portfolio"></a>
+                            <a href="img/Project5 (3).png" data-lightbox="eigth-portfolio"></a>
+                            <a href="img/Project5 (2).png" data-lightbox="eigth-portfolio"></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-description text-center">
+                        <p>This project was requested as a task of the university to learn how tcreate a our own logo
+                            just with our imaginationa and illustrator. This was a group task so, my teammate and me we
+                            create the logo and we also did the negative spce and the minimized logo to see if it was
+                            quite okay.</p>
+                        <div class="portfolio-languages">
+                            <img src="img/illustrator.svg" alt="HTML5" style="width: 25px; height: 25px;">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 11 -->
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/Project4.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/Project6.png" data-lightbox="ninth-portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portfolio-description text-center">
+                        <p>This two projects were as all of them from now, a request of the university. This helped us
+                            to master the apps of both the Illustrator and Photoshop.</p>
+                        <div class="portfolio-languages">
+                            <img src="img/illustrator.svg" alt="HTML5" style="width: 25px; height: 25px;">
+                            <img src="img/photoshop.svg" alt="CSS3" style="width: 25px; height: 25px;">
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Item 12 -->
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item fisrt">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/Animate.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a data-fancybox href="img/Animate.mp4" class="text-white" style="font-size: 60px;">
+                                <i class="fa fa-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portfolio-description text-center">
+                        <p>This animation was a project meant to help us to have a better understanding of how Animate
+                            and 2D animation works.</p>
+                        <div class="portfolio-languages">
+                            <img src="img/photoshop.svg" alt="" style="width: 25px; height: 25px;">
+                            <img src="img/Adobe_Animate.svg" alt="" style="width: 25px; height: 25px;">
+                            <img src="img/illustrator.svg" alt="" style="width: 25px; height: 25px;">
+                            <a
+                                href="https://drive.google.com/file/d/1x1xTlM9MzNvQp--rHGOGvpfsIKsAouUg/view?usp=sharing">
+                                <img src="img/download.svg" alt="" style="width: 25px; height: 25px;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Item 13 -->
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/Easter.jpg" alt="">
+                    </div>
+                    <div class="portfolio-description text-center">
+                        <p>This project was meant to start and understand how photoshop works since we needed to create
+                            the character with Illustrator and search images for the elements and the background. Then,
+                            we
+                            needed to create a united background with Photoshop.</p>
+                        <div class="portfolio-languages">
+                            <img src="img/illustrator.svg" alt="HTML5" style="width: 25px; height: 25px;">
+                            <img src="img/photoshop.svg" alt="CSS3" style="width: 25px; height: 25px;">
+                            <a
+                                href="https://drive.google.com/file/d/1ivteRcinE_ZlELGtPOA7aepJ_q2VhNqQ/view?usp=sharing">
+                                <img src="img/download.svg" alt="" style="width: 25px; height: 25px;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <!-- Portfolio End -->
+
+    <!-- Contact Start -->
+    <div class="container-fluid py-5" id="contact">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Contact</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Contact Me</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-info text-center">
+                        <div class="mb-4">
+                            <img src="img/whatsapp.svg" class="icon-green" alt="" style="width: 50px; height: 50px;">
+                            <p class="mt-3">+34 618 53 90 90</p>
+                        </div>
+                        <div class="mb-4">
+                            <img src="img/Gmail_icon_(2020).svg" alt="" style="width: 50px; height: 50px;">
+                            <p class="mt-3">nerea.llugany.montoya@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
+        <div class="container text-center py-5">
+            <div class="d-flex justify-content-center mb-4">
+                <a class="btn btn-light btn-social mr-2" href="https://www.linkedin.com/in/nerea-llugany-ab47402b0/"><i
+                        class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="d-flex justify-content-center mb-3">
+                <a class="text-white">Privacy</a>
+                <span class="px-3">|</span>
+                <a class="text-white">Terms</a>
+                <span class="px-3">|</span>
+                <a class="text-white">FAQs</a>
+                <span class="px-3">|</span>
+                <a class="text-white">Help</a>
+            </div>
+            <p class="m-0">&copy; <a class="text-white font-weight-bold" href="#">Domain Name</a>. All Rights
+                Reserved. Designed by <a class="text-white font-weight-bold" href="https://htmlcodex.com">HTML
+                    Codex</a>
+            </p>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Scroll to Bottom -->
+    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
